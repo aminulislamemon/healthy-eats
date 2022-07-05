@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
 body{
@@ -119,25 +119,89 @@ body{
 .recipies-details{
     width: 100%;
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
 .meatballs{
     width: 35%;
     height: 400px;
     text-align: left;
-    box-shadow: 5px 5px 20px #8e8e90;
-    margin-left: 120px;
+    box-shadow: 5px 5px 20px #afafb0;
+    margin-left: 170px;
+    border-radius: 15px;
 }
 .meatballs>img{
-    width: 50%;
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.meatballs h2{
+    padding: 5px 0 5px 20px;
+}
+.meatballs p{
+    padding: 0 0 0 20px;
+    width: 80%;
 }
 .vegitables{
     width: 35%;
     height: 400px;
     text-align: left;
-    box-shadow: 5px 5px 20px #8e8e90;
+    box-shadow: 5px 5px 20px #b5b5b6;
     margin-left: 30px;
+    border-radius: 15px;
 }
 .vegitables>img{
-    width: 40%;
+    width: 60%;
+    border-radius: 15px;
+    padding: 20px;    
+}
+.vegitables h2{
+    padding: 5px 0 5px 20px;
+}
+.vegitables p{
+    padding: 0 0 0 20px;
+}
+.social{
+    width: 72%;
+    height: 200px;
+    display: flex;
+    margin-left: 175px;
+    margin-bottom: 50px;
+    border-radius: 15px;    
+    box-shadow: 5px 5px 20px #c3c3c5;
+}
+.youtube, .instagram, .dribble{
+    padding: 65px 0 0 108px;
+}
+.youtube> h1{
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.instagram> h1{
+    font-weight: 700;
+    padding-bottom: 5px;
+} 
+.dribble> h1{
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+/* =========--Footer section--===========*/
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #0B0D17;
+    text-align: center;
+}
+footer>h1{
+    color: #5B5B5B;
+    letter-spacing: 1.5px;
+    padding-top: 30px;
+}
+footer>h1>span{
+    color: #fd8e06;
+}
+footer>p{
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
